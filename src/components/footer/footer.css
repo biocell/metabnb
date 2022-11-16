@@ -1,0 +1,44 @@
+footer{
+    color: #F1F3F9;
+    display: flex;
+    width: 80%;
+    margin:1rem auto;
+    align-items: flex-start;
+    padding: 3rem;
+}
+.fill{
+    width: 100%;
+    background-color: black;
+}
+.social-media{
+    width:140px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.right-column{
+    display: flex;
+    gap: 200px;
+}
+.right-column h3{
+    margin-bottom: 23px;
+}
+.right-column p{
+    margin-top: 15px;
+}
+h6{
+color: #F1F3F9;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+float:left;
+    
+}
+.flex-start{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mb-2{
+margin-bottom: 16px;
+}

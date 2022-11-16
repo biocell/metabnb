@@ -1,26 +1,26 @@
 header{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.header__container{
     width:80%;
+    margin:1rem auto;
+    align-items: center;
 }
 nav{
 
 }
+
 nav ul{
     display: flex;
     list-style: none;
     gap:48px;
+    text-decoration: none;
 }
-.flex{
-display: flex;
-}
-.row{
-    flex-direction: row;
-}
-.column{
-    flex-direction: column;
-}
-.btw{
-    justify-content: space-between;
-}
-.even{
-    justify-content: space-evenly;
+.connect{
+    padding: 15px 26px;
+    color:#fff;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+border-radius: 10px;
 }

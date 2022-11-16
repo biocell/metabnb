@@ -2,13 +2,12 @@ import React from 'react';
 import './nav.css';
 import { Link } from "react-router-dom";
 
-import Home from "../../assets/images/home.svg";
-import Logo from "../../assets/images/logo.svg";
-import './nav.css';
+import Home from "../../images/home.svg";
+import Logo from "../../images/logo.svg";
 
 function Nav(){
     return(
-        <header className="header ">
+        <header className="header">
             <div className="header__container flex row even">
                 <div className="logo">
                     <img src={Home} alt="Home icon" />
@@ -18,20 +17,28 @@ function Nav(){
         <nav>
           <ul>
             <li>
-                     <Link to="/">Home</Link>
+                     <Link style={{textDecoration: 'none' , 
+color: '#000'}} to="/">Home</Link>
             </li>
             <li>
-              <Link to="/place-to-stay"> Place to stay</Link>
+              <Link style={{textDecoration: 'none' , 
+color: '#000'}} to="/place-to-stay"> Place to stay</Link>
             </li>
             <li>
-              <Link to="/">NFTs</Link>
+              <Link style={{textDecoration: 'none' , 
+color: '#000'}} to="/">NFTs</Link>
             </li>
             <li>
-              <Link to="/">Community</Link>
+              <Link style={{textDecoration: 'none', 
+color: '#000'}} to="/">Community</Link>
             </li>
           </ul>
         </nav>
-                <p>Connect wallet</p>
+                <a style={{textDecoration: 'none'}} href="/">
+                    <span className="connect">
+                        Connect wallet
+                    </span>
+                </a>
             </div>
 
         </header>
