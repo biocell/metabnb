@@ -209,6 +209,17 @@ code {
       padding-block: 1rem;
 
   }
+  .grid{
+    display: grid;
+    margin-top: 10px;
+    gap:5px;
+  }
+  .repeat-2{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .repeat-4{
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   }
 
@@ -233,5 +244,16 @@ code {
     margin-top: 3rem;
     padding: 2rem;
     flex-direction: column-reverse;
+  }
+  .grid{
+    display: grid;
+    margin-top: 10px;
+    gap:5px;
+  }
+  .repeat-2{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .repeat-4{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
