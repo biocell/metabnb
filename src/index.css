@@ -135,6 +135,11 @@ code {
   padding-top: 5rem;
   padding-inline: 2rem;
 }
+#left-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 #nft h3{
   font: 700 3.5rem ;
   color: #fff;

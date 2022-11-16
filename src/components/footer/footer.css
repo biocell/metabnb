@@ -2,7 +2,7 @@ footer{
     color: #F1F3F9;
     display: flex;
     width: 80%;
-    margin:1rem auto;
+    margin:auto;
     align-items: flex-start;
     padding: 3rem;
 }

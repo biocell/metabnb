@@ -66,6 +66,7 @@ function App() {
 
   <div id="nft">
     <div className="nft__section">
+      <div id='left-column'>
         <h3>Metabnb NFTs</h3>
           <p>
            Discover our NFT gift cards collection. Loyal<br /> customers gets amazing
@@ -73,9 +74,9 @@ function App() {
            access to loads of our exclusive services.
           </p>
       <button>Learn More</button>
-      
+      </div> 
     </div>
-    <div>
+    <div className='nft__img'>
       <img src="./images/nft.svg" alt=" nft" />
     </div>
   </div>
