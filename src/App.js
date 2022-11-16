@@ -75,9 +75,10 @@ function App() {
           </p>
       <button>Learn More</button>
       </div> 
-    </div>
+    
     <div className='nft__img'>
       <img src="./images/nft.svg" alt=" nft" />
+    </div>
     </div>
   </div>
       <Footer />

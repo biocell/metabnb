@@ -129,10 +129,9 @@ code {
 
 .nft__section{
   display: flex;
-  flex-direction: column;
   margin: auto;
   justify-content: flex-start;
-
+  max-width: 80%;
   padding-inline: 2rem;
 }
 #left-column{
