@@ -42,6 +42,7 @@ code {
   display: grid;
   width: 80%;
   margin-top: 10px;
+  gap:5px;
 }
 .repeat-2{
   grid-template-columns: repeat(2, 1fr);

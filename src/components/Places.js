@@ -19,23 +19,63 @@ function  Places() {
         <img src="./images/location-btn.png" alt="location" />
       </div>
       <div>
+      <div className='grid repeat-4'>
+      <div>
         <img src="./images/feature-img5.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/feature-img6.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/feature-img7.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/feature-img8.png" alt="place-to-go" />
+        </div>
+        </div>
+        <div className='grid repeat-4'>
+        <div>
         <img src="./images/feature-img1.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/feature-img2.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/feature-img3.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/feature-img4.png" alt="place-to-go" />
+        </div>
+        </div>
+        <div className='grid repeat-4'>
+        <div>
         <img src="./images/place-img1.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/place-img2.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/place-img3.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/place-img4.png" alt="place-to-go" />
+        </div>
+        </div>
+        <div className='grid repeat-4'>
+        <div>
         <img src="./images/place-img5.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/place-img6.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/place-img7.png" alt="place-to-go" />
+        </div>
+        <div>
         <img src="./images/place-img8.png" alt="place-to-go" />
-      </div>
+        </div>
+        </div>        
+        </div>
       </div>
       <Footer />
     </div>
