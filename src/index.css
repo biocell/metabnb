@@ -34,6 +34,36 @@ letter-spacing: -0.02em;
 color: #434343;
 
 }
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  z-index: 1;
+  border-radius: 16px;
+  max-width: 600px;
+  overflow: hidden;
+  max-height: 326px;
+}
+
+.modal-content h1 {
+  padding-block: 1rem;
+  color: #333333;
+  font-size: 24px;
+  font-family: var(--mainFont);
+  font-weight: 700;
+}
+
+.modal-content p {
+  padding-block-start: 1rem;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--mainFont);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
