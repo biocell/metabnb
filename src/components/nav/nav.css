@@ -1,0 +1,26 @@
+header{
+    width:80%;
+}
+nav{
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:48px;
+}
+.flex{
+display: flex;
+}
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+.btw{
+    justify-content: space-between;
+}
+.even{
+    justify-content: space-evenly;
+}
