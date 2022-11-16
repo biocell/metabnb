@@ -64,6 +64,9 @@ code {
   .even{
       justify-content: space-evenly;
   }
+  .around{
+    justify-content: space-around;
+  }
   .mb1{
     margin-bottom: 48px;
   }
