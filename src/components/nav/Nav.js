@@ -22,7 +22,7 @@ color: '#000'}} to="/">Home</Link>
             </li>
             <li>
               <Link style={{textDecoration: 'none' , 
-color: '#000'}} to="/place-to-stay"> Place to stay</Link>
+color: '#000'}} to="../Places"> Place to stay</Link>
             </li>
             <li>
               <Link style={{textDecoration: 'none' , 
@@ -36,7 +36,9 @@ color: '#000'}} to="/">Community</Link>
         </nav>
                 <a style={{textDecoration: 'none'}} href="/">
                     <span className="connect">
-                        Connect wallet
+                       
+                       <Link style={{textDecoration: 'none' , 
+color: '#fff'}} to={"../Wallet"}> Connect wallet</Link>
                     </span>
                 </a>
             </div>
