@@ -140,9 +140,11 @@ code {
   flex-direction: column;
   justify-content: flex-start;
 }
-#nft h3{
-  font: 700 3.5rem ;
-  color: #fff;
+.header3{
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px; color: #fff;
 }
 
 #nft p {

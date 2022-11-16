@@ -67,7 +67,7 @@ function App() {
   <div id="nft">
     <div className="nft__section">
       <div id='left-column'>
-        <h3>Metabnb NFTs</h3>
+        <p className='header3'>Metabnb NFTs</p>
           <p>
            Discover our NFT gift cards collection. Loyal<br /> customers gets amazing
            gift cards which are traded as NFTs. These NFTs gives our cutomer
