@@ -61,7 +61,7 @@ function  Places() {
         <img src="./images/place-img4.png" alt="place-to-go" />
         </div>
         </div>
-        <div className='grid repeat-4'>
+        <div className='grid repeat-4 mb-92'>
         <div>
         <img src="./images/place-img5.png" alt="place-to-go" />
         </div>

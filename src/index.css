@@ -71,6 +71,9 @@ code {
   .mb1{
     margin-bottom: 48px;
   }
+  .mb-92{
+    margin-bottom: 92px;
+  }
   #search{
     display:flex;
     max-width: 600px;
