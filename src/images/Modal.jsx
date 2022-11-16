@@ -8,17 +8,15 @@ const Modal = ({open, close}) => {
                 e.stopPropagation()
             }} 
             className="modal-content">
-               <div className="flex btw align-center">
+                <button onClick={close} className="close"><img src="./images.close" alt="close-btn" /></button>
                 <h1>Connect Wallet:</h1>
-                <img src="./images/close.svg" alt="cancel button" />
-                </div>
                 <hr className="hr" />
                 <p>Choose your preferred wallet:</p>
                 <div className="wallets">
-                    <img src="./images/metamask.png" alt="crypto" />
+                    <img src="./images/metamask" alt="crypto-coin" />
                 </div>
                 <div className="wallets">
-                    <img src="./images/wallet.png" alt="crypto" />
+                    <img src="./images/wallet" alt="crypto-coin" />
                 </div>
             </div>
         )
