@@ -24,3 +24,48 @@ nav ul{
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 border-radius: 10px;
 }
+
+@media screen and (max-width:920px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+      }
+    nav ul {
+        position: fixed;
+        z-index: 1;
+        right: -100%;
+        top: 0;
+        flex-direction: column;
+        width: 80%;
+        background: #000;
+        height: 100vh;
+        align-items: center;
+        transition: 1s;
+    }
+
+    nav li {
+        flex-direction: column;
+        padding-block: 1rem;
+
+    }
+
+    }
+
+    .hamburger {
+        display: flex;
+        z-index: 1;
+    }
+
+    
+
+    li a {
+        color: #fff;
+    }
+
+
+@media screen and (min-width:821px) and (max-width:1025px) {
+    .header{
+      display: flex;
+      flex-direction: column;
+    }
+}

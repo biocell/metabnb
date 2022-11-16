@@ -1,13 +1,18 @@
-import React from 'react';
+import { React, useState} from 'react';
 import './nav.css';
 import { Link } from "react-router-dom";
 
 import Home from "../../images/home.svg";
 import Logo from "../../images/logo.svg";
 
-function Nav(){
+function Nav({ showModal }){
+  const [click, setClick] = useState(false)
+
+  const handleClick = () => {
+      setClick(!click)
+  }
     return(
-        <header className="header">
+        <header className="header" onClick={handleClick}>
             <div className="header__container flex row even">
                 <div className="logo">
                     <img src={Home} alt="Home icon" />
@@ -38,7 +43,7 @@ color: '#000'}} to="/">Community</Link>
                     <span className="connect">
                        
                        <Link style={{textDecoration: 'none' , 
-color: '#fff'}} to={"../Wallet"}> Connect wallet</Link>
+color: '#fff'}} to={"../Modal"}> Connect wallet</Link>
                     </span>
                 </a>
             </div>

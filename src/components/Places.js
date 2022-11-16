@@ -1,11 +1,9 @@
 import React from "react";
-import Navbar from "./nav/Nav";
 import Footer from "./footer/Footer";
 import './places.css'
 function  Places() {
   return (
     <div>
-      <Navbar />
       <div  id="places__container">
       <div className="flex even sub-heading">
         <p>Restaurant</p>

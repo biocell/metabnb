@@ -176,3 +176,62 @@ code {
 }
 
 
+@media screen and (max-width:920px) {
+  .hero__section{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+    padding: 2rem;
+  }
+  .left
+  .flex{
+      display: flex;
+      flex-direction: column;
+    }
+  nav ul {
+      position: fixed;
+      z-index: 1;
+      right: -100%;
+      top: 0;
+      flex-direction: column;
+      width: 80%;
+      background: #000;
+      height: 100vh;
+      align-items: center;
+      transition: 1s;
+  }
+
+  nav li {
+      flex-direction: column;
+      padding-block: 1rem;
+
+  }
+
+  }
+
+
+  
+
+  li a {
+      color: #fff;
+  }
+
+
+@media screen and (min-width:821px) and (max-width:1025px) {
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__section{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    flex-direction: column-reverse;
+  }
+}

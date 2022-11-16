@@ -1,11 +1,9 @@
 import React from 'react';
 import Footer from './footer/Footer';
-import Nav from "./nav/Nav";
 
 function Metabnb() {
     return (
       <div className="App">
-        <Nav />
         <div className='hero__section'>
           <div className='left-column'>
           <h1 className='mb1'>Rent a <span className='gradient'>Place</span> away from <span className='gradient'>Home</span> in the <span className='gradient'>Metaverse</span></h1>
