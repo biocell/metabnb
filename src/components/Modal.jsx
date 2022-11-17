@@ -4,8 +4,7 @@ const Modal = ({open, close}) => {
 
 
     return (
-        <dialog onClick={close} id="myModal" className="modal" open={open}>
-          
+       
              <div onClick={(e) => {
                 e.stopPropagation()
             }} 
@@ -23,7 +22,7 @@ const Modal = ({open, close}) => {
                     <img src="./images/wallet.png" alt="crypto" />
                 </div>
             </div>
-            </dialog>
+            
         )
 }
 
