@@ -274,7 +274,7 @@ code {
   }
 
 
-@media screen and (min-width:821px) and (max-width:1025px) {
+@media screen and (min-width:821px) and (max-width:1024px) {
   .header{
     display: flex;
     flex-direction: column;
@@ -288,6 +288,10 @@ code {
     padding: 2rem;
     flex-direction: column-reverse;
   }
+  .nft__section{
+    padding-inline: 0;
+    flex-wrap: nowrap;
+  }
   .grid{
     display: grid;
     margin-top: 10px;
@@ -297,6 +301,132 @@ code {
     grid-template-columns: repeat(2, 1fr);
   }
   .repeat-4{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/* for mobile phones */
+@media (max-width:480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+
+  }
+
+
+  .places {
+    width: 100%;
+    margin: auto;
+  }
+
+  .nav-places {
+    flex-direction: column;
+  }
+
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .grid img {
+    width: 350px;
+  }
+
+
+  main {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    place-items: center;
+    margin: auto;
+  }
+
+  .heroimg img {
+    object-fit: cover;
+    height: 300px;
+
+  }
+
+  .search {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #srch {
+    margin-block: 1rem;
+    position: relative;
+    width: 90%;
+    border-radius: 8px;
+
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #A3A3A3;
+
+  }
+
+  #srch-btn {
+    position: relative;
+    left: 0;
+    width: 90%;
+    height: 44px;
+    border-radius: 8px;
+
+  }
+
+  .navwrap {
+    flex-direction: column;
+
+  }
+
+  #inspiration {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 3rem;
+    place-items: center;
+  }
+
+  footer{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  }
+
+
+
+/* for ipads */
+@media (min-width: 481px) and (max-width:820px) {
+  .hero__section {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .left-column{
+    width: 100%;
+    overflow: hidden;
+  }
+  #left-column{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    width: 90%;
+  }
+  .nft__section{
+    flex-wrap: wrap;
+  }
+  footer{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
 }
